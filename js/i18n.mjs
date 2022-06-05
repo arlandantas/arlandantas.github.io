@@ -26,12 +26,10 @@ window.setLanguage = (language) => {
 }
 
 function getBrowserLanguage () {
-    if (/^en\b/.test(navigator.language)) {
-        window.setLanguage("en");
-    }
     if (/^pt\b/.test(navigator.language)) {
         window.setLanguage("pt");
     }
+    window.setLanguage("en");
 }
 
 getBrowserLanguage();
