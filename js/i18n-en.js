@@ -4,7 +4,7 @@ export default {
         birthDate: "<b>Birth date: </b>1997-08-16",
         birthPlace: "<b>Place of birth: </b>Feira de Santana, Bahia, Brazil",
         currentLocale: "<b>Current locale: </b>Campinas, São Paulo, Brazil",
-        translate: "Traduzir:",
+        profiles: "Profiles:",
     },
     description: {
         job: {
@@ -32,6 +32,22 @@ export default {
                 details: "IFRN-ZN, Federal Institute of Education, Science and Technology from Rio Grande do Norte, Campus Natal - Zona Norte",
                 period: "From 2013 to 2017",
             },
-        }
+        },
+        articles: {
+            title: "Academic publications",
+            dooyeweerd: {
+                title: "PHILOSOPHY OF TECHNOLOGY IN HERMAN DOOYEWEERD: modal ontology and ground motive applied to the development of information systems 🔗",
+                details: "UPM, Mackenzie Presbyterian University.<br/><b>Teacher advisor:</b> Cristiano Camilo Lopes.",
+                period: "2020",
+            },
+        },
+        theology: {
+            title: "Personal Blog",
+            verbus: {
+                title: "Portal Verbus 🔗",
+                details: "Personal blog with publications about God, Theology and Christian life.",
+                period: "Since 2016",
+            },
+        },
     }
 };

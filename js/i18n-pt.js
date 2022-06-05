@@ -4,7 +4,7 @@ export default {
         birthDate: "<b>Nascimento: </b>16/08/1997",
         birthPlace: "<b>Naturalidade: </b>Feira de Santana, Bahia, Brasil",
         currentLocale: "<b>Residência Atual: </b>Campinas, São Paulo, Brasil",
-        translate: "Translate:",
+        profiles: "Perfis:",
     },
     description: {
         job: {
@@ -32,6 +32,22 @@ export default {
                 details: "IFRN-ZN, Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte, Campus Natal - Zona Norte",
                 period: "De 2013 a 2017",
             },
-        }
+        },
+        articles: {
+            title: "Publicações Acadêmicas",
+            dooyeweerd: {
+                title: "FILOSOFIA DA TECNOLOGIA EM HERMAN DOOYEWEERD: ontologia modal e motivo-básico aplicados ao desenvolvimento de sistemas da informação 🔗",
+                details: "UPM, Universidade Presbiteriana Mackenzie.<br/><b>Orientador:</b> Cristiano Camilo Lopes.",
+                period: "2020",
+            },
+        },
+        theology: {
+            title: "Blog Pessoal",
+            verbus: {
+                title: "Portal Verbus 🔗",
+                details: "Blog pessoal com postagens sobre Deus, teologia e vida cristã.",
+                period: "Desde 2016",
+            },
+        },
     }
 };

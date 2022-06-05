@@ -17,6 +17,18 @@
         <div i18n="header.birthDate"></div>
         <div i18n="header.birthPlace"></div>
         <div i18n="header.currentLocale"></div>
+        <div id="social">
+            <b i18n="header.profiles"></b>
+            <a href="https://github.com/arlandantas" target="_blank">
+                <img width="30" src="./github.png" alt="Github icon" title="Icon by Dave Gandy @ flaticon">
+            </a>
+            <a href="https://linkedin.com/in/arlandantas" target="_blank">
+                <img width="30" src="./linkedin.png" alt="Linked icon" title="Icon by Google @ flaticon">
+            </a>
+            <a href="https://instagram.com/arlandantass" target="_blank">
+                <img width="30" src="./instagram.png" alt="instagram icon" title="Icon by Freepik @ flaticon">
+            </a>
+        </div>
         <div id="languages">
             <div onclick="setLanguage('en')">🇺🇸</div>
             <div onclick="setLanguage('pt')">🇧🇷</div>
@@ -49,14 +61,26 @@
                 <span i18n="description.academic.electronics.period" style="color: #555"></span>
             </div>
         </div>
-        <!-- <div id="articles">
+        <div id="articles">
             <h1 i18n="description.articles.title"></h1>
             <div class="item">
-                <h2 i18n="description.academic.theology.title"></h2>
-                <span i18n="description.academic.theology.details"></span>
-                <span i18n="description.academic.theology.period" style="color: #555"></span>
+                <a href="http://eventoscopq.mackenzie.br/index.php/jornada/xvijornada/paper/view/2124/1374" target="_blank">
+                    <h2 i18n="description.articles.dooyeweerd.title"></h2>
+                </a>
+                <span i18n="description.articles.dooyeweerd.details"></span>
+                <span i18n="description.articles.dooyeweerd.period" style="color: #555"></span>
             </div>
-        </div> -->
+        </div>
+        <div id="theology">
+            <h1 i18n="description.theology.title"></h1>
+            <div class="item">
+                <a href="https://verbus.net" target="_blank">
+                    <h2 i18n="description.theology.verbus.title"></h2>
+                </a>
+                <span i18n="description.theology.verbus.details"></span>
+                <span i18n="description.theology.verbus.period" style="color: #555"></span>
+            </div>
+        </div>
     </section>
     <script src="./js/i18n.mjs" type="module"></script>
     <script src="./index.js"></script>
