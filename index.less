@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    * {
+        line-height: 1.5em;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    }
+}
+body {
+    display: grid;
+    grid-template-columns: 400px auto;
+    @media screen and (max-width: 1000px) {
+        grid-template-columns: 300px auto;
+    }
+    @media screen and (max-width: 700px) {
+        grid-template-columns: auto;
+    }
+}
+section {
+    &#resume {
+        @media screen and (max-width: 1000px) {
+            padding: 1em;
+        }
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+        h1 {
+            margin: 0;
+            font-size: 1.2em;
+            text-align: center;
+        }
+        div {
+            margin: .5em 0;
+        }
+        #picture {
+            height: 200px;
+            width: 200px;
+            margin-bottom: 1.5em;
+            img {
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+                box-shadow: 0px 0px 2px 2px #aaa;
+            }
+        }
+        #languages {
+            display: flex;
+            flex-direction: row;
+            div {
+                margin: 0 .5em;
+            }
+        }
+    }
+    &#description {
+        @media screen and (min-width: 701px) {
+            min-height: 100vh;
+        }
+        box-shadow: 0px -2px 4px 0px #aaa;
+        & > div {
+            padding: 2em;
+            h1, h2 {
+                margin: 0;
+            }
+            .item {
+                margin-top: 1em;
+                display: flex;
+                flex-direction: column;
+                box-shadow: 0px 0px 3px 0px #aaa;
+                border-radius: .5em;
+                padding: .5em 1em;
+                h2 {
+                    font-size: 1.2em;
+                    margin: .5em 0;
+                }
+                span {
+                    margin: .25em 0;
+                }
+            }
+        }
+    }
+}
