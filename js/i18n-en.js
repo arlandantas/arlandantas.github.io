@@ -22,6 +22,16 @@ export default {
         },
         academic: {
             title: "Academic education",
+            theology: {
+                title: "Theology Bachelor",
+                details: "UPM, Mackenzie Presbyterian University.<br/><b></b>",
+                period: "From 2017 to 2021",
+            },
+            electronics: {
+                title: "Technical Course in Electronics",
+                details: "IFRN-ZN, Federal Institute of Education, Science and Technology from Rio Grande do Norte, Campus Natal - Zona Norte",
+                period: "From 2013 to 2017",
+            },
         }
     }
 };

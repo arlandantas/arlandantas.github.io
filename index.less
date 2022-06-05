@@ -51,20 +51,25 @@ section {
             flex-direction: row;
             div {
                 margin: 0 .5em;
+                cursor: pointer;
+                font-size: 2em;
             }
         }
+        background-color: #f5f5f5;
     }
     &#description {
+        background-color: #fafafa;
         @media screen and (min-width: 701px) {
             min-height: 100vh;
         }
         box-shadow: 0px -2px 4px 0px #aaa;
         & > div {
-            padding: 2em;
+            margin: 2em;
             h1, h2 {
                 margin: 0;
             }
             .item {
+                background: #fff;
                 margin-top: 1em;
                 display: flex;
                 flex-direction: column;

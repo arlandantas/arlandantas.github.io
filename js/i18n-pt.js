@@ -22,6 +22,16 @@ export default {
         },
         academic: {
             title: "Formação acadêmica",
+            theology: {
+                title: "Bacharel em Teologia",
+                details: "UPM, Universidade Presbiteriana Mackenzie.<br/><b></b>",
+                period: "De 2017 a 2021",
+            },
+            electronics: {
+                title: "Técnico em Eletrônica",
+                details: "IFRN-ZN, Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte, Campus Natal - Zona Norte",
+                period: "De 2013 a 2017",
+            },
         }
     }
 };

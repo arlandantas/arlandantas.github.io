@@ -56,6 +56,7 @@ section#resume {
   flex-direction: column;
   align-items: center;
   padding: 2em;
+  background-color: #f5f5f5;
 }
 @media screen and (max-width: 1000px) {
   section#resume {
@@ -87,8 +88,11 @@ section#resume #languages {
 }
 section#resume #languages div {
   margin: 0 0.5em;
+  cursor: pointer;
+  font-size: 2em;
 }
 section#description {
+  background-color: #fafafa;
   box-shadow: 0px -2px 4px 0px #aaa;
 }
 @media screen and (min-width: 701px) {
@@ -97,13 +101,14 @@ section#description {
   }
 }
 section#description > div {
-  padding: 2em;
+  margin: 2em;
 }
 section#description > div h1,
 section#description > div h2 {
   margin: 0;
 }
 section#description > div .item {
+  background: #fff;
   margin-top: 1em;
   display: flex;
   flex-direction: column;
