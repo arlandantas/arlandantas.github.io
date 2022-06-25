@@ -7,6 +7,17 @@ export default {
         profiles: "Perfis:",
     },
     description: {
+        projects: {
+            title: "Projetos Pessoais",
+            words: {
+                title: "Jogo do Termo 🔗",
+                details: "Projeto simples que dá dicas para que o jogador acerte palavras de 5 letras com JS/HTML/CSS."
+            },
+            snake: {
+                title: "Jogo da Cobrinha 🔗",
+                details: "Jogo épico da cobrinha, mas implementado em GO e compilado em WASM."
+            },
+        },
         job: {
             title: "Trabalho",
             inti: {

@@ -7,6 +7,17 @@ export default {
         profiles: "Profiles:",
     },
     description: {
+        projects: {
+            title: "Personal Projects",
+            words: {
+                title: "Term Game 🔗",
+                details: "The player receives tips to hit 5 letters words. Developed in JS/HTML/CSS."
+            },
+            snake: {
+                title: "Snake Game 🔗",
+                details: "The epic snake game. Developed in GO and compiled in WASM."
+            },
+        },
         job: {
             title: "Job",
             inti: {
