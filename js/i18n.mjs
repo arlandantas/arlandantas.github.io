@@ -6,6 +6,8 @@ const i18n = {
     en: i18nEn,
 };
 
+let currentLanguage = null;
+
 function walkObject(obj, callback, prefix = '') {
     Object.keys(obj).forEach((key) => {
         const complete_key = `${(prefix != '' ? `${prefix}.` : '')}${key}`;
@@ -17,7 +19,8 @@ function walkObject(obj, callback, prefix = '') {
     });
 }
 
-window.setLanguage = (language) => {
+window.setLanguage = (language = currentLanguage) => {
+    currentLanguage = language
     walkObject(i18n[language], (key, value) => {
         document.querySelectorAll(`[i18n="${key}"]`).forEach((e) => {
             e.innerHTML = value;

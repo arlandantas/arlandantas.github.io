@@ -7,6 +7,7 @@ export default {
         profiles: "Profiles:",
     },
     description: {
+        back: "View complete version",
         projects: {
             title: "Personal Projects",
             words: {
@@ -53,11 +54,26 @@ export default {
             },
         },
         theology: {
-            title: "Personal Blog",
+            title: "Theology",
             verbus: {
                 title: "Portal Verbus 🔗",
                 details: "Personal blog with publications about God, Theology and Christian life.",
                 period: "Since 2016",
+            },
+            introduction: {
+                title: "Introduction to Gospel 🔗",
+                details: "A serie of texts in partnership with other theologians to present the Gospel fundamentals."
+            },
+            verbuscast: {
+                title: "VerbusCast 🔗",
+                details: "Podcast about theology and Christian life."
+            },
+            juvibcs: {
+                title: "IBCS Youth Studies 🔗",
+                details: "Serie of studies of the New Testament letters made remotely during the pandemic with the youth of the Baptist Church in Cidade Serodio (Guarulhos - SP)."
+            },
+            sermons: {
+                title: "Sermons",
             },
         },
     }
