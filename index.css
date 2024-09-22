@@ -109,18 +109,18 @@ section#description {
     min-height: 100vh;
   }
 }
-section#description > div {
+section#description > div > div {
   margin: 2em;
 }
-section#description > div h1,
-section#description > div h2 {
+section#description > div > div h1,
+section#description > div > div h2 {
   margin: 0;
 }
-section#description > div h2 {
+section#description > div > div h2 {
   font-size: 1.2em;
   margin: 0.5em 0;
 }
-section#description > div .item {
+section#description > div > div .item {
   background: #fff;
   margin-top: 1em;
   display: flex;
@@ -129,19 +129,19 @@ section#description > div .item {
   border-radius: 0.5em;
   padding: 0.5em 1em;
 }
-section#description > div .item a {
+section#description > div > div .item a {
   color: inherit;
   text-decoration: none;
 }
-section#description > div .item span {
+section#description > div > div .item span {
   margin: 0.25em 0;
 }
-section#description > div #back {
+section#description #back {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-section#description > div #back a {
+section#description #back a {
   color: blue;
   text-decoration: none;
 }
@@ -156,6 +156,7 @@ section#description #videos .video {
   flex-direction: row;
   justify-content: center;
   flex-grow: 1;
+  max-width: 500px;
 }
 section#description #videos .video iframe {
   width: 100%;
